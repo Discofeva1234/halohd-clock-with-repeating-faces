@@ -210,5 +210,78 @@ basic.forever(function () {
         # . . . #
         . # # # .
         `)
+    basic.pause(3000)
+    basic.showIcon(IconNames.Ghost)
+    basic.showLeds(`
+        . . # # #
+        . # . # .
+        . # # # #
+        . # # # #
+        . # . # .
+        `)
+    basic.showLeds(`
+        . . . # #
+        . . # . #
+        . . # # #
+        . . # # #
+        . . # . #
+        `)
+    basic.showLeds(`
+        . . . . #
+        . . . # .
+        . . . # #
+        . . . # #
+        . . . # .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . #
+        . . . . #
+        . . . . #
+        . . . . #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.pause(1000)
+    basic.showIcon(IconNames.Duck)
+    basic.pause(500)
+    basic.showLeds(`
+        . . . . .
+        . # # . .
+        # # # . .
+        . # # # #
+        . # # # .
+        `)
+    basic.pause(500)
+    basic.showIcon(IconNames.Duck)
+    basic.pause(500)
+    basic.showLeds(`
+        . . . . .
+        . # # . .
+        # # # . .
+        . # # # #
+        . # # # .
+        `)
+    basic.pause(500)
+    basic.showLeds(`
+        . # . # .
+        . . . . .
+        . . # . .
+        . # . # .
+        . . # . .
+        `)
+    basic.pause(500)
+    basic.showLeds(`
+        . . . . .
+        . # . # .
+        . . . . .
+        # . . . #
+        . # # # .
+        `)
     basic.pause(5000)
 })
